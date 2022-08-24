@@ -1,6 +1,6 @@
 {
-  "name": "qiita-cli",
-  "version": "0.0.0-development",
+  "name": "@taptappun/qiita-cli",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "semantic-release": "semantic-release",
     "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\""
   },
-  "author": "antyuntyun",
+  "author": "TakuKobayashi",
   "license": "Apache-2.0",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
@@ -83,6 +83,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antyuntyuntyun/qiita-cli.git"
+    "url": "https://github.com/TakuKobayashi/qiita-cli.git"
   }
 }
