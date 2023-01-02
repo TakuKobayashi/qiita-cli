@@ -46,7 +46,7 @@ program
   .description('qiitaとの接続設定. 初回のみ実行')
   .option(
     '-m, --method <method>',
-    `accessTokenの取得方法をoauthまたはinputのどちらかを指定してください。(default: AccessTokenMethod)`,
+    `accessTokenの取得方法をoauthまたはinputのどちらかを指定してください`,
     'oauth'
   )
   .action(async (options: InitInputOptions) => {
@@ -62,7 +62,7 @@ program
   )
   .option(
     '-p, --project <baseProjectPath>',
-    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください。(default: ${defaultProjectName})`,
+    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください`,
     defaultProjectName
   )
   .action(async (options: PullArticleInputOptions) => {
@@ -74,7 +74,7 @@ program
   .description('新しい記事を追加')
   .option(
     '-p, --project <baseProjectPath>',
-    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください。(default: ${defaultProjectName})`,
+    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください`,
     defaultProjectName
   )
   .option('-s, --simplify', `入力事項が省略されて新しい記事が作成されます`)
@@ -91,7 +91,7 @@ program
   )
   .option(
     '-p, --project <baseProjectPath>',
-    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください。(default: ${defaultProjectName})`,
+    `記事の取得・投稿を行うための作業ディレクトリの場所を指定してください`,
     defaultProjectName
   )
   .option(
